@@ -138,7 +138,7 @@ This is an independent implementation of the procedure published in *Design of N
 
 ## Licence and Permitted Use
 
-Copyright (c) 2026 M. Reza Hosseini and Amila Premakumara, The University of Melbourne. All rights reserved.
+Copyright (c) 2026 Dr M. Reza Hosseini and Amila Premakumara (The University of Melbourne). All rights reserved.
 
 This repository is publicly visible for transparency and review only. No permission is granted to use, copy, modify, distribute or build on the code, data or documentation without prior written permission. See [`LICENSE`](LICENSE) for the full notice, and contact [mreza.hosseini@unimelb.edu.au](mailto:mreza.hosseini@unimelb.edu.au) to request permission.
 
