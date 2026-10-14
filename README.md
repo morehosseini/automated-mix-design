@@ -7,6 +7,7 @@
   <a href="#current-status--benchmark-evidence"><img src="https://img.shields.io/badge/Tests-35%2F35%20Passed-9FB825?style=for-the-badge&logo=checkmarx" alt="Tests"></a>
   <a href="#current-status--benchmark-evidence"><img src="https://img.shields.io/badge/Quantities-38%2F38%20Within%20Tolerance-46C8F0?style=for-the-badge&logo=target" alt="Quantities"></a>
   <a href="#3-run-reproducibility-verification"><img src="https://img.shields.io/badge/Python-3.10%2B-FFD629?style=for-the-badge&logo=python" alt="Python"></a>
+  <a href="#licence-and-permitted-use"><img src="https://img.shields.io/badge/Licence-All%20Rights%20Reserved-6E6E6E?style=for-the-badge" alt="Licence: All Rights Reserved"></a>
   <a href="https://www.unimelb.edu.au/"><img src="https://img.shields.io/badge/Affiliation-Univ.%20of%20Melbourne-000F46?style=for-the-badge" alt="UniMelb"></a>
 </p>
 
@@ -73,6 +74,8 @@ The digitised curve data are in [`Code/bre_engine/data/`](Code/bre_engine/data).
 
 ## Quick Start & Usage
 
+> **Note:** the code may be used only with the copyright holders' prior written permission (see [Licence and Permitted Use](#licence-and-permitted-use)). The steps below document how the reported results are reproduced.
+
 ### 1. Installation
 
 ```bash
@@ -133,6 +136,14 @@ This is an independent implementation of the procedure published in *Design of N
 
 ---
 
+## Licence and Permitted Use
+
+Copyright (c) 2026 M. Reza Hosseini and Amila Premakumara, The University of Melbourne. All rights reserved.
+
+This repository is publicly visible for transparency and review only. No permission is granted to use, copy, modify, distribute or build on the code, data or documentation without prior written permission. See [`LICENSE`](LICENSE) for the full notice, and contact [mreza.hosseini@unimelb.edu.au](mailto:mreza.hosseini@unimelb.edu.au) to request permission.
+
+---
+
 ## Research Team & Contributors
 
 | **Dr M. Reza Hosseini** | **Amila Premakumara** |
@@ -143,7 +154,7 @@ This is an independent implementation of the procedure published in *Design of N
 
 ## Citation
 
-If you use this engine or digitisation pipeline in your research, please cite:
+If you refer to this engine or digitisation pipeline in your work, please cite:
 
 ```bibtex
 @misc{hosseini2026automatedmix,

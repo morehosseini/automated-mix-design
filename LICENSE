@@ -1,0 +1,41 @@
+Copyright (c) 2026 M. Reza Hosseini and Amila Premakumara,
+The University of Melbourne. All rights reserved.
+
+AUTOMATED CONCRETE MIX DESIGN (automated-mix-design)
+NOTICE OF RESTRICTED USE
+
+1. Ownership. This repository, including the source code, digitised chart
+   data, tests, validation results, documentation, diagrams and text
+   (together, the "Materials"), is the copyright work of the copyright
+   holders named above. It is made publicly visible for transparency and
+   review only.
+
+2. No permission granted. No licence or permission is granted to any person
+   to use, run, copy, modify, adapt, translate, merge, publish, distribute,
+   sublicense, sell or create derivative works from the Materials, in whole
+   or in part, or to incorporate them into any other software, dataset,
+   publication or product, or to use them to train, fine-tune or evaluate
+   machine-learning models, for any purpose, whether commercial or
+   non-commercial, in research, teaching or practice, without the prior
+   written permission of the copyright holders.
+
+3. Viewing and forking on GitHub. Because this repository is public, GitHub's
+   Terms of Service allow other GitHub users to view it and to fork it within
+   the GitHub platform. Nothing in this notice extends that permission to any
+   other use, and any fork remains subject to this notice.
+
+4. Third-party material. Tables and chart data in the Materials are derived
+   from "Design of Normal Concrete Mixes" (Building Research Establishment,
+   2nd edition, 1997), which remains the property of its owners. Nothing in
+   this notice grants any right in that publication or its contents, and this
+   repository is not affiliated with or endorsed by BRE.
+
+5. No warranty; not engineering advice. THE MATERIALS ARE PROVIDED "AS IS",
+   WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. THEY ARE RESEARCH OUTPUTS
+   AND MUST NOT BE RELIED ON FOR THE DESIGN OR CONSTRUCTION OF ANY STRUCTURE
+   OR CONCRETE MIX. TO THE FULLEST EXTENT PERMITTED BY LAW, THE COPYRIGHT
+   HOLDERS ARE NOT LIABLE FOR ANY CLAIM, DAMAGE OR LOSS ARISING FROM THE
+   MATERIALS OR THEIR USE.
+
+6. Permission requests. To request permission to use the Materials, contact
+   Dr M. Reza Hosseini, mreza.hosseini@unimelb.edu.au.
