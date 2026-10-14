@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00186B"/>
+      <stop offset="100%" stop-color="#000F46"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9FB825"/>
+      <stop offset="100%" stop-color="#46C8F0"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Step 1 -->
+  <g transform="translate(20, 30)" filter="url(#shadow)">
+    <rect width="190" height="210" rx="12" fill="url(#cardBg)" stroke="#46C8F0" stroke-width="1.5"/>
+    <circle cx="95" cy="45" r="22" fill="rgba(70,200,240,0.15)"/>
+    <text x="95" y="52" fill="#46C8F0" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" text-anchor="middle">01</text>
+    <text x="95" y="95" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" text-anchor="middle">BRE / DOE Sources</text>
+    <text x="95" y="125" fill="#C8C8C8" font-family="-apple-system, sans-serif" font-size="12" text-anchor="middle">Historical design charts</text>
+    <text x="95" y="145" fill="#C8C8C8" font-family="-apple-system, sans-serif" font-size="12" text-anchor="middle">Figs 2, 5 &amp; 6 scans</text>
+    <text x="95" y="165" fill="#C8C8C8" font-family="-apple-system, sans-serif" font-size="12" text-anchor="middle">Worked examples n=4</text>
+    <rect x="25" y="185" width="140" height="22" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="95" y="200" fill="#ABC1A7" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" text-anchor="middle">RAW SOURCE SCANS</text>
+  </g>
+
+  <!-- Arrow 1-2 -->
+  <g transform="translate(215, 125)">
+    <line x1="0" y1="10" x2="25" y2="10" stroke="url(#arrowGrad)" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="25,4 35,10 25,16" fill="#9FB825"/>
+  </g>
+
+  <!-- Step 2 -->
+  <g transform="translate(255, 30)" filter="url(#shadow)">
+    <rect width="190" height="210" rx="12" fill="url(#cardBg)" stroke="#9FB825" stroke-width="1.5"/>
+    <circle cx="95" cy="45" r="22" fill="rgba(159,184,37,0.15)"/>
+    <text x="95" y="52" fill="#9FB825" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" text-anchor="middle">02</text>
+    <text x="95" y="95" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" text-anchor="middle">CV Digitisation</text>
+    <text x="95" y="125" fill="#C8C8C8" font-family="-apple-system, sans-serif" font-size="12" text-anchor="middle">Morphology extraction</text>
+    <text x="95" y="145" fill="#C8C8C8" font-family="-apple-system, sans-serif" font-size="12" text-anchor="middle">Curve interpolation</text>
+    <text x="95" y="165" fill="#C8C8C8" font-family="-apple-system, sans-serif" font-size="12" text-anchor="middle">Visual QA overlays</text>
+    <rect x="25" y="185" width="140" height="22" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="95" y="200" fill="#9FB825" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" text-anchor="middle">VECTOR / JSON TABLES</text>
+  </g>
+
+  <!-- Arrow 2-3 -->
+  <g transform="translate(450, 125)">
+    <line x1="0" y1="10" x2="25" y2="10" stroke="url(#arrowGrad)" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="25,4 35,10 25,16" fill="#9FB825"/>
+  </g>
+
+  <!-- Step 3 -->
+  <g transform="translate(490, 30)" filter="url(#shadow)">
+    <rect width="190" height="210" rx="12" fill="url(#cardBg)" stroke="#46C8F0" stroke-width="2"/>
+    <circle cx="95" cy="45" r="22" fill="rgba(70,200,240,0.2)"/>
+    <text x="95" y="52" fill="#46C8F0" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" text-anchor="middle">03</text>
+    <text x="95" y="95" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Deterministic Core</text>
+    <text x="95" y="125" fill="#C8C8C8" font-family="-apple-system, sans-serif" font-size="12" text-anchor="middle">Target mean strength</text>
+    <text x="95" y="145" fill="#C8C8C8" font-family="-apple-system, sans-serif" font-size="12" text-anchor="middle">w/c, water, &amp; cement</text>
+    <text x="95" y="165" fill="#C8C8C8" font-family="-apple-system, sans-serif" font-size="12" text-anchor="middle">Total &amp; fine aggregate</text>
+    <rect x="25" y="185" width="140" height="22" rx="6" fill="rgba(70,200,240,0.15)"/>
+    <text x="95" y="200" fill="#46C8F0" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" text-anchor="middle">bre_mix_design.py</text>
+  </g>
+
+  <!-- Arrow 3-4 -->
+  <g transform="translate(685, 125)">
+    <line x1="0" y1="10" x2="25" y2="10" stroke="url(#arrowGrad)" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="25,4 35,10 25,16" fill="#9FB825"/>
+  </g>
+
+  <!-- Step 4 -->
+  <g transform="translate(725, 30)" filter="url(#shadow)">
+    <rect width="190" height="210" rx="12" fill="url(#cardBg)" stroke="#9FB825" stroke-width="1.5"/>
+    <circle cx="95" cy="45" r="22" fill="rgba(159,184,37,0.15)"/>
+    <text x="95" y="52" fill="#9FB825" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" text-anchor="middle">04</text>
+    <text x="95" y="95" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Verification Suite</text>
+    <text x="95" y="125" fill="#C8C8C8" font-family="-apple-system, sans-serif" font-size="12" text-anchor="middle">35 behavioural checks</text>
+    <text x="95" y="145" fill="#C8C8C8" font-family="-apple-system, sans-serif" font-size="12" text-anchor="middle">38/38 quantities pass</text>
+    <text x="95" y="165" fill="#C8C8C8" font-family="-apple-system, sans-serif" font-size="12" text-anchor="middle">Worked-example validation</text>
+    <rect x="25" y="185" width="140" height="22" rx="6" fill="rgba(159,184,37,0.15)"/>
+    <text x="95" y="200" fill="#9FB825" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" text-anchor="middle">4 WORKED EXAMPLES</text>
+  </g>
+
+  <!-- Arrow 4-5 -->
+  <g transform="translate(920, 125)">
+    <line x1="0" y1="10" x2="25" y2="10" stroke="url(#arrowGrad)" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="25,4 35,10 25,16" fill="#46C8F0"/>
+  </g>
+
+  <!-- Step 5 -->
+  <g transform="translate(960, 30)" filter="url(#shadow)">
+    <rect width="120" height="210" rx="12" fill="url(#cardBg)" stroke="#FFD629" stroke-width="1.5"/>
+    <circle cx="60" cy="45" r="22" fill="rgba(255,214,41,0.15)"/>
+    <text x="60" y="52" fill="#FFD629" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" text-anchor="middle">05</text>
+    <text x="60" y="95" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Agentic AI</text>
+    <text x="60" y="125" fill="#C8C8C8" font-family="-apple-system, sans-serif" font-size="11" text-anchor="middle">Planned extension</text>
+    <text x="60" y="145" fill="#C8C8C8" font-family="-apple-system, sans-serif" font-size="11" text-anchor="middle">LLM interface</text>
+    <text x="60" y="165" fill="#C8C8C8" font-family="-apple-system, sans-serif" font-size="11" text-anchor="middle">Not yet built</text>
+    <rect x="15" y="185" width="90" height="22" rx="6" fill="rgba(255,214,41,0.15)"/>
+    <text x="60" y="200" fill="#FFD629" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" text-anchor="middle">PLANNED</text>
+  </g>
+</svg>

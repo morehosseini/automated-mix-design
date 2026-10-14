@@ -1,0 +1,67 @@
+{
+ "ln_b_chart": 2.9996,
+ "b_chart": 20.078,
+ "pooled_rmse_ln": 0.0854,
+ "n_points": 18944,
+ "per_curve": {
+  "0": {
+   "n_raw": 2772,
+   "s_at_0.5": 64.59,
+   "n_fit": 2772,
+   "rmse_ln": 0.1314
+  },
+  "1": {
+   "n_raw": 2841,
+   "s_at_0.5": 43.44,
+   "n_fit": 2841,
+   "rmse_ln": 0.07
+  },
+  "2": {
+   "n_raw": 2871,
+   "s_at_0.5": 40.77,
+   "n_fit": 2871,
+   "rmse_ln": 0.0332
+  },
+  "3": {
+   "n_raw": 2875,
+   "s_at_0.5": 30.22,
+   "n_fit": 2875,
+   "rmse_ln": 0.0443
+  },
+  "4": {
+   "n_raw": 2367,
+   "s_at_0.5": 25.05,
+   "n_fit": 2367,
+   "rmse_ln": 0.0755
+  },
+  "5": {
+   "n_raw": 2239,
+   "s_at_0.5": 20.92,
+   "n_fit": 2239,
+   "rmse_ln": 0.1043
+  },
+  "6": {
+   "n_raw": 1422,
+   "s_at_0.5": 16.02,
+   "n_fit": 1422,
+   "rmse_ln": 0.1159
+  },
+  "7": {
+   "n_raw": 1199,
+   "s_at_0.5": 12.15,
+   "n_fit": 1199,
+   "rmse_ln": 0.0912
+  },
+  "8": {
+   "n_raw": 358,
+   "s_at_0.5": 7.65,
+   "n_fit": 358,
+   "rmse_ln": 0.036
+  }
+ },
+ "model": "ln(S) = intercept_k + slope * wc, pooled fixed-effects OLS across all detected digitized curves; LN_B = -slope",
+ "wc_domain": [
+  0.3,
+  0.9
+ ]
+}

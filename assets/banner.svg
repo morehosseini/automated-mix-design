@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000F46"/>
+      <stop offset="60%" stop-color="#00186B"/>
+      <stop offset="100%" stop-color="#06225E"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9FB825"/>
+      <stop offset="100%" stop-color="#46C8F0"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.08)"/>
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGrad)"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+
+  <!-- Subtle abstract aggregate particles / geometric motif -->
+  <g opacity="0.25" stroke="#46C8F0" stroke-width="1.5" fill="none">
+    <polygon points="980,60 1060,90 1080,170 1020,210 950,160 940,90" fill="rgba(70, 200, 240, 0.05)"/>
+    <polygon points="1070,200 1140,240 1120,320 1040,330 1010,260" fill="rgba(159, 184, 37, 0.05)"/>
+    <polygon points="850,140 920,170 900,250 830,260 800,190" fill="rgba(255, 255, 255, 0.03)"/>
+    <line x1="950" y1="160" x2="1010" y2="260" stroke-dasharray="4,4"/>
+    <line x1="1020" y1="210" x2="1070" y2="200" stroke-dasharray="4,4"/>
+    <line x1="920" y1="170" x2="950" y2="160" stroke-dasharray="4,4"/>
+    <circle cx="950" cy="160" r="4" fill="#9FB825"/>
+    <circle cx="1020" cy="210" r="4" fill="#46C8F0"/>
+    <circle cx="1070" cy="200" r="4" fill="#9FB825"/>
+    <circle cx="920" cy="170" r="4" fill="#FFFFFF"/>
+    <circle cx="1010" cy="260" r="4" fill="#46C8F0"/>
+  </g>
+
+  <!-- Decorative Accent Bar -->
+  <rect x="80" y="65" width="6" height="150" rx="3" fill="url(#accentGrad)"/>
+
+  <!-- Header Category Badge -->
+  <g transform="translate(100, 65)">
+    <rect width="270" height="28" rx="14" fill="rgba(159, 184, 37, 0.18)" stroke="#9FB825" stroke-width="1"/>
+    <text x="135" y="18" fill="#9FB825" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" text-anchor="middle">CONSTRUCTION AI &amp; DIGITAL TWIN</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="100" y="145" fill="#FFFFFF" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" letter-spacing="-0.5">Automated Mix Design</text>
+  <text x="100" y="195" fill="url(#accentGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="24" font-weight="600">Deterministic BRE/DOE Engine &amp; Digitised Standard Charts</text>
+
+  <!-- Subtitle Description -->
+  <text x="100" y="240" fill="#ABC1A7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="15" font-weight="400">
+    Computer-vision curve digitisation and deterministic BRE/DOE mix formulation, validated on worked examples.
+  </text>
+
+  <!-- Metric Badges Row -->
+  <g transform="translate(100, 275)">
+    <!-- Badge 1: Accuracy -->
+    <g transform="translate(0, 0)">
+      <rect width="210" height="65" rx="8" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+      <text x="16" y="26" fill="#8EA4D2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">BEHAVIOURAL VALIDATION</text>
+      <text x="16" y="50" fill="#46C8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="700">35 / 35 Passed</text>
+    </g>
+
+    <!-- Badge 2: Worked Examples -->
+    <g transform="translate(225, 0)">
+      <rect width="210" height="65" rx="8" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+      <text x="16" y="26" fill="#8EA4D2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">QUANTITY VALIDATION</text>
+      <text x="16" y="50" fill="#9FB825" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="700">38 / 38 Passed</text>
+    </g>
+
+    <!-- Badge 3: Methodology -->
+    <g transform="translate(450, 0)">
+      <rect width="210" height="65" rx="8" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+      <text x="16" y="26" fill="#8EA4D2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">STANDARDS BASELINE</text>
+      <text x="16" y="50" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="700">BRE / DOE Core</text>
+    </g>
+
+    <!-- Badge 4: Faculty / Institution -->
+    <g transform="translate(675, 0)">
+      <rect width="320" height="65" rx="8" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+      <text x="16" y="26" fill="#8EA4D2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">RESEARCH AFFILIATION</text>
+      <text x="16" y="50" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="600">The University of Melbourne</text>
+    </g>
+  </g>
+
+  <!-- Bottom Brand Line -->
+  <rect x="0" y="394" width="1200" height="6" fill="url(#accentGrad)"/>
+</svg>
